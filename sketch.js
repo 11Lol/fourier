@@ -19,7 +19,7 @@ function draw() {
     let prevy = y;
 
     let n = i * 2 + 1;
-    let radius = 75 * (4 / (n * PI));
+    let radius = 150 * (4 / (n * PI));
     x += radius * cos(n * time);
     y += radius * sin(n * time);
 
